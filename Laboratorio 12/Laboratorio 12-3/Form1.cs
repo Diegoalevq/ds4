@@ -38,7 +38,7 @@ namespace Laboratorio_12_3
                 textSemiper.Text = $"{Semiper:F2} cm";
             } catch (FormatException)
             {
-                MessageBox.Show("Ingrese únicamente un valor de tipo númerico.",  "Error de Formato", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Ingrese únicamente un valor de tipo númerico.","Error de Formato", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
